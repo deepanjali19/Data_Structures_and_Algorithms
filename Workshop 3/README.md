@@ -4,4 +4,4 @@ It implements push_front(), push_back(), pop_front() and pop_back() functions fo
 
 The doubly linked list implements sentinel nodes.
 
-The Wiki for this workshop shows analysis for singly linked list.
+The **Wiki** for this workshop shows analysis for singly linked list.
