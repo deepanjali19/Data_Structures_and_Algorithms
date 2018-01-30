@@ -9,3 +9,5 @@ What is meant by P class Problems?
 What is meant by NP class Problems?
 
 What is P vs NP?
+
+**The report is under the Wiki section**
