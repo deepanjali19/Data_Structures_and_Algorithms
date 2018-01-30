@@ -1,4 +1,4 @@
-This workshop is about binary search tree where I implement 3 functions:
+This workshop is about binary search tree where I implement 3 functions in lab6.h:
 
 ``
 void remove(const T& data);
