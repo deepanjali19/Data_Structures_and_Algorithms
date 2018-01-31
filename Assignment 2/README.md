@@ -70,7 +70,8 @@ Study the implementation of the SimpleTable class without making any modificatio
 
 Rewrite the functions in Part A to improve the efficiency of the table as a whole. Note that you are allowed to re-implement as much as you wish. The only rules are:
 
-    - the table must fundamentally still be based on a simple sorted array. How you maintain the data as a sorted array is up to you. As long as it is a sorted array, it is fine.
+    - the table must fundamentally still be based on a simple sorted array. 
+    - How you maintain the data as a sorted array is up to you. As long as it is a sorted array, it is fine.
     - the function prototypes for the member functions must remain as they are.
 
 Perform the same analysis as Part A on your implementation of the table. What is the new run time?
@@ -102,4 +103,5 @@ Once you have completed your testing for your table, perform an experiment on ho
 In a wiki page:
 
     - create a table showing results
-    - create a line graph with the % of openness on the x-axis, timing in y axis. It might be easiest to do this in a google spreadsheet and then link the graph.
+    - create a line graph with the % of openness on the x-axis, timing in y axis. 
+    - It might be easiest to do this in a google spreadsheet and then link the graph.
