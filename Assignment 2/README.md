@@ -9,15 +9,12 @@ The file contains the following:
 - SimpleTable which is derived from Table. 
 
     - This table implements the Table as a sorted array.
-
     - The code works to spec (ie, its a sorted array, you can compile and run it, it will pass all tests).
-
     - You will work with this table in Part A and B of your assignment
 
 - LPTable which is derived from Table. 
 
     - This table is not implemented.
-
     - You will need to implement this class and it must be a hash table using linear probing as its collision resolution method.
    
 **Table Class**
@@ -27,7 +24,6 @@ The Table class is a templated abstract base class. That is, it describes the fu
 The records for this table consists of key-value pairs. The key in a c++ string. The value can be any data type that supports the following:
 
   - assignment (=)
-
   - instantiation without arguments (you can declare variables of TYPE, the value of which is undefined)
 
 In the description below the word record refer to a key-value pair. The way you store it (whether you make a template struct called Record with a data member for key and value, or you store them separately in parallel structures is entirely up to you.
