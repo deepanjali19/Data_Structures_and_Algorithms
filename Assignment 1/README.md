@@ -73,6 +73,7 @@ The SortedList class has the following member functions. Each function must meet
 •	O(n) where n is the number of nodes between first and last
 
 ``iterator search(const T& data);
+
 const_iterator search(const T& data) const;``
 
 •	returns iterator to the node containing data. If data is not found, returns end()
@@ -92,9 +93,13 @@ const_iterator search(const T& data) const;``
 •	O(1)
 
 ``~SortedList();
+
 SortedList(const SortedList&);
+
 SortedList& operator=(const SortedList&);
+
 SortedList(SortedList&&);
+
 SortedList& operator=(SortedList&&);``
 
 •	Your sorted linked list must also implement destructor, copy constructor, assignment operator, move constructor, move operator.
@@ -109,13 +114,17 @@ The idea of an iterator is to provide a means to traverse your class. In the STL
 You will need two iterators. a const_iterator and an iterator which is derived from const_iterator. For both operators, the following public members/operators are needed. You are welcome to add any other private or protected members as you see fit:
 
 ``iterator();
+
 const_iterator();``
 
 constructors, returns iterators to nullptrs O(1)
 
 ``iterator operator++();
+
 const_iterator operator++() const;
+
 iterator operator++(int);
+
 const_iterator operator++(int);``
 
 •	prefix and postfix ++ operator
@@ -127,8 +136,11 @@ const_iterator operator++(int);``
 •	O(1)
 
 ``iterator operator--();
+
 const_iterator operator--() const;
+
 iterator operator--(int);
+
 const_iterator operator--(int);``
 
 •	prefix and postfix operator --
@@ -150,13 +162,14 @@ returns true if two iterators point at the same node, false otherwise
 •	O(1)
 
 ``const T& operator*()const; (in both iterator and const_iterator)
+
 T& operator*(); (only in iterator)``
 
 •	dereferencing operator, returns the data in the node pointed to by iterator
 
 •	O(1)
 
-##Part 2: Recursion: GCD, Polynomial division and remainder (10 marks)
+**Part 2: Recursion: GCD, Polynomial division and remainder (10 marks)**
 
 Part of this requires a working sorted list (part 1). You will need to complete part 1 before you can complete this All functions must be written recursively for this part of the assignment to be considered complete. You are allowed to use the required functions as wrappers to recursive functions but the code that actually finds to the solution MUST be recursive
 
@@ -169,6 +182,7 @@ Part of this requires a working sorted list (part 1). You will need to complete 
 Complete the Polynomial class by writing the / and % operators.
 
 ``Polynomial operator/(const Polynomial& p1, const Polynomial& p2);
+
 Polynomial operator%(const Polynomial& p1, const Polynomial& p2);``
 
 The polynomial class is a sorted linked list of Terms. Each term consists of a coefficent and exponent. The coefficient is a fraction. the exponent is an unsigned integer. Terms are ordered by the exponent. The higher the exponent, the closer to the front of the list it is. Thus, the node with the biggest exponent will be placed at the front of the linked list.
