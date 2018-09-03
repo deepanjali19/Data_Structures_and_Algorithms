@@ -1,3 +1,3 @@
 # Data_Structures_and_Algorithms
 
-This repository contain practice work of data structures and algorithms.
+This repository contains the practice work of data structures and algorithms course that I did during my degree at Seneca College.
